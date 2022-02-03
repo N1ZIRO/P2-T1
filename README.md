@@ -1,7 +1,7 @@
 # P2-T1
 
 Este es un simple formulario pala la tarea 1. (∩^o^)⊃━☆☆☆
-este formulario ase una simple demostración de un tema claro y uno oscuro
+este formulario ase una simple demostración de un tema claro y uno oscuro el cual utilisa el modelo Modelo-Vista-Controlador (MVC) para su creacion. 
 
 Luis david almanzar
 
