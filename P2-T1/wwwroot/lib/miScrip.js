@@ -41,4 +41,4 @@ function qt(laberr) {
     laberr.classList.remove('is-invalid')
     laberr.classList.remove('animate__animated')
     laberr.classList.remove('animate__wobble')
-}``
+}
