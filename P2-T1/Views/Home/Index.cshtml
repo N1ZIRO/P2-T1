@@ -2,24 +2,26 @@
     ViewData["Title"] = "Home Page";
 }
 
+
 <div class="from">
+    <img  class="logo" src="~/img/logo.jpg" />
     <div class="mb-3">
   <label  class="form-label">Nonbre:</label>
-  <input type="email" class="form-control">
+  <input type="email" class="form-control" onclick="qt('nombre')" id="nombre">
 </div>
 <div class="mb-3">
   <label  class="form-label">Matricula</label>
-  <input type="email" class="form-control">
+  <input type="email" class="form-control" onclick="qt('matricula')" id="matricula">
 </div>
 <div class="mb-3">
   <label  class="form-label">Promedio:</label>
-  <input type="email" class="form-control">
+  <input type="email" class="form-control" onclick="qt('promedio')" id="promedio">
 </div>
 <div class="mb-3">
   <label  class="form-label">Comentario</label>
   <textarea class="form-control" rows="3"></textarea>
 </div>
 <div class="mb-3">
-    <button type="button" class="btn btn-primary" style="width:100%;">Ingresar informacion.</button>
+    <button type="button" onclick="validar()" class="btn btn-primary" style="width:100%;">Ingresar informacion.</button>
 </div>
 </div>
